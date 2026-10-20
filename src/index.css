@@ -1,1 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&family=Cairo:wght@400;600;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-pink: #D4145A;
+  --color-pink-soft: #FDE3EC;
+  --color-blush: #E9A1B2;
+  --color-background: #FCF7F8;
+  --color-surface: #FFFFFF;
+  --color-ink: #16090D;
+  --color-muted: #7D6F72;
+  --color-border: #EFDDE3;
+  --color-footer-ink: #F6EBE8;
+  --color-error: #C0392B;
+  --color-success: #3A8A5A;
+
+  /* ألوان المنتجات */
+  --color-product-black: #16090D;
+  --color-product-blush: #E9A1B2;
+  --color-product-ivory: #F3E9DC;
+  --color-product-sage: #9BAB8F;
+  --color-product-navy: #27344F;
+  --color-product-mauve: #A07A95;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-arabic: 'Cairo', sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.15;
+}

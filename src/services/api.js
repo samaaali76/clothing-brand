@@ -42,3 +42,6 @@ export async function subscribeNewsletter(email) {
   console.log('Newsletter subscription (mock):', email)
   return { success: true }
 }
+
+
+
